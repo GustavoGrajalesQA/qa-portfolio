@@ -41,4 +41,16 @@ let precio = 200000;
 precio *= 1.19;
 console.log(precio);
 
+// Ejercicio 5: predice y verifica
+console.log("5" + 3);
+console.log("5" - 3);
+console.log(10 % 3);
+console.log(2 ** 3);
 
+// Ejercicio 6 (QA): porcentaje de éxito
+let totalTests = 20;
+let fallidos = 4;
+let pasaron = totalTests - fallidos;
+let porcentaje = (pasaron / totalTests) * 100;
+console.log(pasaron);
+console.log(porcentaje);
